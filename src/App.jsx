@@ -87,7 +87,7 @@ function App() {
           <input className='content' value={content} onChange={contentChangehandler}></input>
           </div>
           <div>
-          <button className='add_button' onClick={addHandler}> 추가하기 </button>
+          <button className='add_button' onClick={addHandler}>추가하기</button>
           </div>
       </div>
       <h1>오늘의 할일</h1>
