@@ -1,0 +1,59 @@
+.App{
+  max-width: 1200px;
+  height: 800px;
+  background-color:blanchedalmond;
+  display: flex;
+  flex-direction: column;   
+  margin: 0 auto;   /*해당 개체 항상 정중앙*/
+}
+.Top_bar{
+  width:1200px;
+  height: 150px;
+  background-color: antiquewhite;
+  border: 3px solid black;
+  border-radius: 10px;
+  display: flex;
+}
+.title{
+  margin-top: 40px;
+  height: 30px;
+  border-radius: 5px;
+  width: 200px;
+  margin-right: 40px;
+}
+.content{
+  margin-top: 40px;
+  height: 30px;
+  border-radius: 5px;
+  height: 30px;
+  width: 300px;
+}
+.add_button{
+  height: 35px;
+  border-radius: 5px;
+  margin-top: 40px;
+  margin-left: 80px;
+  background-color: green;
+  color: white;
+}
+.todo{
+  border: 1px solid green;
+  border-radius: 10px;
+  width: 200px;
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+}
+.todo>p{
+  font-size: 20px;
+}
+.todolist{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
+.done{
+  font-size: 20px;
+  display: flex;
+  flex-direction: row;
+}
